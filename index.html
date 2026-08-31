@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>PediatricDose Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <input type="number" id="inp1" placeholder="Enter the child's weight in kilograms">
+        <select id="medicine">
+            <option value="" hidden disabled selected>Select Medicine:</option>
+          <option value="paracetamol">Paracetamol / Panadol (120mg / 5mL)</option>
+          <option value="ibuprofen">Ibuprofen / Brufen (100mg / 5mL)</option>
+          <option value="amoxicillin">Amoxicillin Antibiotic (125mg / 5mL)</option>
+        </select>
+        <button id="btn">Get Dosage</button>
+        <h3 id="h3"></h3>
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <button id="btn2">Clear Result</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
